@@ -17,6 +17,13 @@ h1 {
     font-family: 'Rubik Maps', system-ui;
 }
 
+.disabled {
+    pointer-events: none; 
+    color: gray; 
+    cursor: default;
+    text-decoration: none;
+}
+
 .seccion-oscura {
     color: white;
     background-color: #1b1b32;
