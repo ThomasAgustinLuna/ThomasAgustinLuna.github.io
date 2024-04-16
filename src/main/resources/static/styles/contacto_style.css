@@ -1,0 +1,165 @@
+/* grl styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', system-ui;
+    font-family: 'Rubik Maps', system-ui;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+
+}
+
+.seccion-clara {
+    color: black;
+    background-color: #f0f0f1;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', system-ui;
+    font-family: 'Rubik Maps', system-ui;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+.btn-secondary {
+    font-size: 1.1rem;
+    margin: 20px;
+    font-weight: bold;
+}
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
+}
+.navbar-collapse{
+    transition:all .5s;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+/* navbar */
+
+.navbar {
+    padding: 2rem;
+    background-color: #f0f2f5;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*form*/
+
+.form {
+
+    max-height: 50%;
+    padding: 20px;
+    text-align: center;
+   
+
+}
+
+.form .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px;
+    margin: 10px;
+}
+
+.titulo-form {
+    margin-top: 10rem;
+}
+
+/*footer*/
+
+footer{
+    min-height: 500px;
+
+}
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand',sans-serif;
+}
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+
+}
+.iconos-redes-sociales i{
+    color: rgb(167, 164, 21);
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales a:hover {
+    background-color: White;
+    border: 2px solid black;
+}
+.derechos-de-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .form-inferior-imagen {
+        max-width: 600px;
+    }
+}
+
+@media screen and(max-width: 450px) {
+    .form-control {
+      width: 10px;
+    }
+}

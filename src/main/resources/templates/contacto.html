@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!--Metadatos-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Thomas Agustin Luna">
+  <meta name="description" content="Portfolio">
+  <meta name="keywords" content="Java, JavaScript, Spring, React, HTML, CSS, Bootstrap">
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--BI icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!--Css-->
+  <link href="../static/styles/contacto_style.css" rel="stylesheet">
+  <!--Titulo-->
+  <title>Thomas Agustin Luna | Full-Stack Developer</title>
+  <!--FavIcon-->
+  <link rel="icon" type="image/x-icon" href="../static/images/favicon.svg">
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik+Maps&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--Nav-->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <a class="navbar-brand" href="#footer">
+          <img src="images/favicon.png" width="50" alt="Logo de la página web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--Form-->
+  <section class="form seccion-oscura ">
+    <div class="contenedor d-flex align-center flex-column">
+      <h2 class="seccion-titulo titulo-form">You can fill out your information or send me a direct email</h2>
+      <form class="align-center ">
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Name</label>
+          <input type="name" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+
+        <label for="descripcion">Send me a message(optional):</label><br>
+        <textarea id="descripcion" name="descripcion" rows="10" cols="50"></textarea>
+
+        
+      </form>
+      <div class="botones d-flex align-center flex-row justify-content-center">
+        <button type="submit" class="btn btn-warning">Submit</button>
+        <a href="mailto:lunathomasagustin@gmail.com" target="_blank" rel="noopener noreferrer">
+          <button type="submit" class="btn btn-warning">Direct Email</button>
+        </a>
+      </div>
+     
+
+    </div>
+  </section>
+  <!--Footer-->
+  <footer id="footer" class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="images/Logo-blanco.svg" alt="logo del portfolio">
+    <p class="footer-texto text-center">
+      Se el cambio que quieres ver en el mundo.
+    </p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://github.com/ThomasAgustinLuna" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+
+      </a>
+      <a href="https://linkedin.com/in/thomasagustinluna" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+
+      </a>
+      <a href="mailto:lunathomasagustin@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope-check-fill"></i>
+
+      </a>
+    </div>
+    <div class="derechos-de-autor">Creado por Thomas Agustin Luna (2024) &#169;</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,396 @@
+/* grl styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', system-ui;
+    font-family: 'Rubik Maps', system-ui;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+
+}
+
+.seccion-clara {
+    color: black;
+    background-color: #f0f0f1;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', system-ui;
+    font-family: 'Rubik Maps', system-ui;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+.btn-secondary {
+    font-size: 1.1rem;
+    margin: 20px;
+    font-weight: bold;
+}
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
+}
+.navbar-collapse{
+    transition:all .5s;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+/* navbar */
+
+.navbar {
+    padding: 2rem;
+    background-color: #f0f2f5;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*hero*/
+
+.hero {
+    background-color: #f0f2f5;
+    min-height: 450px;
+    text-align: center;
+
+}
+
+.hero-principal {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-imagen-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 40px;
+}
+
+.hero-logo {
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+    padding: 2rem;
+    margin: 40px;
+    font-family: 'Rubik Dirt', system-ui;
+    font-family: 'Rubik Maps', system-ui;
+}
+
+/*about me*/
+.about-me {
+    height: 500px;
+    padding: 20px;
+}
+
+.about-me .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/*experience*/
+
+.experience {
+    padding: 40px 40px 60px 40px;
+    
+}
+
+.experience .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+    border-radius: 5%;
+    
+}
+
+.experience .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.experience i {
+    font-size: 2.5rem;
+    color: rgb(167, 164, 21);
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experience-title {
+    font-size: 25PX;
+    font-weight: BOLD;
+    margin: 10px 0;
+}
+
+.badges-contenedor {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
+/*proyects*/
+.proyectos-recientes{
+    text-align: center;
+}
+
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+.proyectos-carousel{
+    padding: 40px;
+    padding-top: 60px;
+    margin-bottom:40px;
+}
+
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.proyecto {
+    position: relative;
+}
+.proyecto:hover img{
+    opacity:0.2 ;
+}
+.proyecto:hover .overlay {
+    opacity: 1;
+
+}
+.overlay .iconos-contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.overlay i{
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+   
+}
+
+.proyectos-recientes .carousel{
+    max-width: 800px;
+    margin-bottom: 5rem;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+/*contact*/
+.contact .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+
+}
+.contact .rectangulo{
+    margin-top: -5rem;
+    background-color: rgb(167, 164, 21);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contact .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contact button {
+color: white;
+font-weight: bold;
+background-color: transparent;
+border:  2px solid white;
+padding: 1.25em 2em;
+margin: 10px;
+border-radius: 100px;
+transition: all 0.2s ease-in-out;
+
+}
+.contact button:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+.contact button i {
+    color:white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+.contact button:hover i{
+    color: black;
+}
+/*footer*/
+
+footer{
+    min-height: 500px;
+
+}
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand',sans-serif;
+}
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+
+}
+.iconos-redes-sociales i{
+    color: rgb(167, 164, 21);
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales a:hover {
+    background-color: White;
+    border: 2px solid black;
+}
+.derechos-de-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+/*letras*/
+
+.letra-t {
+    color: rgb(167, 164, 21);
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', system-ui;
+    font-family: 'Rubik Maps', system-ui;
+
+}
+
+.letra-a {
+    color: rgb(167, 164, 21);
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', system-ui;
+    font-family: 'Rubik Maps', system-ui;
+
+}
+
+.letra-l {
+    color: rgb(167, 164, 21);
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', system-ui;
+    font-family: 'Rubik Maps', system-ui;
+
+}
+
+/*Responsive*/
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none
+    }
+}
+
+@media screen and (max-width:960px) {
+    .hero-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .badges-contenedor {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .badges-contenedor {
+        font-size: 15px;
+    }
+}
